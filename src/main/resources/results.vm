@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">GAP-LY</h1>
+        <p class="subtitle">Your AI-Powered Market Gap Identifier</p>
+    </header>
+    <main>
+        <section class="results-section">
+            <h2>Market Gaps Identified:</h2>
+            <ul class="results-list">
+                #foreach($gap in $gaps)
+                    <li class="result-item">$gap</li>
+                #end
+            </ul>
+        </section>
+        <a href="/" class="back-link">Search Again</a>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gap-ly. All rights reserved.</p>
+    </footer>
+</body>
+</html>

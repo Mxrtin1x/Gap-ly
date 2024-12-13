@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gap-ly - Market Gap Identifier</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">GAP-LY</h1>
+        <p class="subtitle">Your AI-Powered Market Gap Identifier</p>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" class="search-bar" placeholder="Message">
+            <button class="search-button">Identify Gaps!</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gap-ly. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
